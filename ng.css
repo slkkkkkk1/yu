@@ -1,0 +1,39 @@
+.tree {
+    width: 120px;
+}
+.tree-layer,
+.tree-log {
+    margin: 0 auto;
+}
+.tree-layer {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid green;
+}
+.tree-layer:nth-child(2) {
+    margin-top: -30px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid green;
+}
+.tree-layer:nth-child(3) {
+    margin-top: -50px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid green;
+}
+.tree-log {
+    width: 20px;
+    height: 30px;
+    background-color:brown;
+}
+.tree-layer:nth-child(4) {
+    width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
